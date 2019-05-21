@@ -6,6 +6,4 @@ RUN apt-get update && \
     python3-numpy python3-scipy \
     python3-pip python3-setuptools
 
-RUN pip3 install --no-cache-dir influxdb==5.2.1
-
 CMD ["ipython3"]
